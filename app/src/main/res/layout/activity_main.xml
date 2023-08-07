@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/DarkSlateGray"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/tajbig_picture"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/countpress"
+            android:textColor="@color/Yellow"
+            android:textColorHighlight="@color/Khaki"
+            android:textIsSelectable="true"
+            android:textSize="100sp"
+            android:textStyle="bold"
+
+            />
+
+
+        <Button
+            android:id="@+id/addone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add one"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/subone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Remove one" />
+
+        <Button
+            android:layout_marginTop="25dp"
+            android:id="@+id/reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Reset" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/displaymessege"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/Khaki"
+
+
+
+        />
+
+    </LinearLayout>
+</LinearLayout>
